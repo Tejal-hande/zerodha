@@ -46,11 +46,10 @@ body
 /*------------------ hero section start----------------------- */
 .hero-section 
 {
+   padding: 100px 95px;
     display: flex;
-    text-align: center;
-   /* flex-direction: column;
-   align-items: center; */
-    display: block;
+    flex-direction: column;
+    align-items: center;
 }
 .hero-section img
 {
@@ -73,15 +72,18 @@ body
 
 .hero-section a
 {
-    background-color: #387ed1;
+    text-decoration: none;
+     background-color: #387ed1;
     color: white;
      display: flex;
      width: 200px;
     text-decoration: none;
-    padding:9px 16px 9px 42px;
+    font-weight: 300;
+    font-size: 20px;
+    padding:11px 20px 11px 37px;
+    border-radius: 4px;
+     margin: 30px 0px 
     /* padding-left: 39px;padding-right: 16px;padding-top: 9px; padding-bottom: 9px; */
-    border-radius: 8px;
-    margin: 35px 0px 0px 540px;
    /* margin-left: 550px;margin-top: 35px; */
 }
 .hero-section a:hover
@@ -98,10 +100,8 @@ body
 {
      display: flex;
     justify-content: space-between;
-  
-   
     padding: 0px 90px;
-    margin-top: 120px;
+    margin-top: 40px;
     gap: 20px;
       
 }
@@ -217,6 +217,203 @@ body
 /* --------------------image css stop------------------------------- */
 /* main css STOP */
 
+/* --------pricing css start------------------------------------- */
+:root
+{
+    --text-color: rgb(79, 73, 73);
+    --h3-color:#2e2c2c;
+    --h3-size: 25px;
+    --h3-weight:55;
+    --a-color:  #3873d1;
+    --p-size:17px;
+}
+.price
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+
+}
+.price-left
+{
+    width: 40vw;
+    padding-left: 80px;
+    
+}
+.price-left p
+{
+    padding: 30px 0px;
+    font-size:var(--p-size);
+    color:var(--text-color);
+
+}
+.price-left h3
+{
+    font-weight:var( --h3-weight);
+    font-size: var(--h3-size);
+    color: var(--h3-color);
+}
+.price-left a
+{
+    text-decoration: none;
+    color: var(--a-color);
+}
+.price-left a:hover
+{
+    color: black;
+}
+.price-right p
+{
+    font-size: 10px;
+
+}
+
+.price-right
+{
+   display: flex;
+    width: 60vw;
+    padding-right: 50px;
+    
+}
+.templ img
+{
+    width: 9vw;
+}
+.templ 
+{
+    width: 33.3vw;
+    display: flex;
+    padding: 5px 3px;
+    gap: 3px;
+   
+}
+.info
+{
+   display: flex;
+   align-self: center;
+}
+
+
+/* --------pricing css stop------------------------------------- */
+
+
+/*------------------------ verasity css start--------------------------------------------- */
+
+.verasity
+{   
+    padding: 80px 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+
+}
+.verasity-left
+{
+
+    width: 40vw;
+}
+.verasity-right
+{
+    padding-top: 60px;
+    width: 60vw;
+}
+.verasity-right h3
+{
+    color: var(--h3-color);
+    font-size: var(--h3-size);
+    font-weight: var(--h3-weight);
+}
+.para1a p
+{
+    padding-top: 30px;
+    color:var(--text-color) ;
+    font-size: var(--p-size);
+}
+.para2a p
+{
+    padding-top: 30px;
+    color:var(--text-color) ;
+    font-size: var(--p-size);
+}
+.verasity-right a
+{
+    text-decoration: none;
+    color: var(--a-color);
+}
+.verasity-right a:hover
+{
+    color: black;
+}
+/*------------------------ verasity css stop--------------------------------------------- */
+
+/* ----------------------------account css start-------------------------------------- */
+.account
+{
+    padding: 100px 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.account h3
+{
+     color: var(--h3-color);
+    font-size: var(--h3-size);
+    font-weight: var(--h3-weight);
+}
+.account p
+{
+    padding: 30px;
+    color: grey;
+}
+.account a
+{
+    text-decoration: none;
+     background-color: #387ed1;
+    color: white;
+     display: flex;
+     width: 200px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+    padding:11px 20px 11px 37px;
+    border-radius: 4px;
+     margin: 10px 0px 
+
+}
+.account a:hover
+{
+    color: black;
+}
+/* ----------------------------account css stop-------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------- */
 /* --------------------signup css start------------------------------- */
 .signup
 {
