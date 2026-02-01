@@ -162,38 +162,8 @@ body
     
 
 
-/*------------------- explore section start--------------------- */
-/*------------------------------------ price session start--------------------------------- */
+/*------------------- explore section stop--------------------- */
 
-
-
-
-
-
-
-/*------------------------------------ price session stop--------------------------------- */
-.container
-{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    display: block;
-    padding-top: 100px;
-   
-}
-.container .para1{
-    font-size: 26px;
-    font-weight: 540;
-    color: #2a1d1d;
-    margin-bottom: 5px;
-   
-    
-}
-.container .para2{
-    font-size: 20px;
-    color:grey ;
-}
-/* --------------------container css stop------------------------------- */
 /* --------------------main css start------------------------------- */
 .main
 {
@@ -386,7 +356,65 @@ body
 }
 /* ----------------------------account css stop-------------------------------------- */
 
+/* -------------footer section start------------------------ */
 
+.footer
+{
+    display: flex;
+    padding-bottom: 40px;
+    background-color: #fbfbfb;
+}
+.footer-left
+{
+   
+   padding-left: 60px;
+}
+.footer-right
+{
+     display: flex;
+     justify-content: space-between;
+     gap: 50px;
+     padding: 0px 60px;    
+}
+.foot h3
+{
+    padding-bottom:  20px;
+}
+.foot p
+{display: flex;
+   padding-top: 18px;
+   color: #666;
+   font-size: 14.5px;
+}
+
+.icons1 img
+{
+    max-height: 20px;
+    width: auto;
+    margin-bottom: 19px;
+}
+.para-footer 
+{
+      font-size: .8rem;
+      color: #666;
+}
+.icons2, .icons3
+{
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 16px;
+}
+.footer i
+{
+    color: #666;
+}
+.icons2
+{
+  padding-bottom: 17px;
+    border-bottom: 1px solid #e7dada;;
+}
+/* -------------footer section stop------------------------ */
 
 
 
@@ -414,6 +442,30 @@ body
 
 
 /* ------------------------------------------------------------------------------------------------------- */
+
+/* signup css stsrt -------------------------------- */
+.container
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    padding-top: 100px;
+   
+}
+.container .para1{
+    font-size: 26px;
+    font-weight: 540;
+    color: #2a1d1d;
+    margin-bottom: 5px;
+   
+    
+}
+.container .para2{
+    font-size: 20px;
+    color:grey ;
+}
+/* --------------------container css stop------------------------------- */
 /* --------------------signup css start------------------------------- */
 .signup
 {
