@@ -15,11 +15,15 @@ body
 {
     display: flex;
     justify-content: space-between;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding: 0  140px;
+    /* padding-right: 140px; */
     align-items: center;
-    height: 50px;
-    border-bottom: 1px solid #e7dada;;
+    height: 70px;
+    border-bottom: 1px solid #e7dada;
+    width: 100%;
+     background-color: white;
+    position: fixed;
+   
 }
 .header-left img{
 
@@ -352,7 +356,7 @@ body
 }
 .account a:hover
 {
-    color: black;
+    background-color: black;
 }
 /* ----------------------------account css stop-------------------------------------- */
 
