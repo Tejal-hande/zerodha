@@ -46,6 +46,7 @@ body
     color: black;
     transform: translateY(-3px);
 }
+
 /*------------------ header section stop----------------------- */
 /*------------------ hero section start----------------------- */
 .hero-section 
@@ -57,7 +58,7 @@ body
 }
 .hero-section img
 {
-    width: 650px;
+    width: 40vw;
     margin-top: 50px;
     margin-bottom: 60px;
 
@@ -420,7 +421,20 @@ body
 }
 /* -------------footer section stop------------------------ */
 
-
+@media (width<=1024px)
+{
+    .header-right a{
+        display: none;
+    }
+    .section
+    {
+        flex-direction: column;
+    }
+    .section-right
+    {
+        text-align: center;
+    }
+}
 
 
 
